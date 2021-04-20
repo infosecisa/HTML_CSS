@@ -1,0 +1,23 @@
+/* Formatando as notícias e colocando-as lado a lado */
+.conteudo {
+
+	background: white; /* Fundo dos textos */
+	border: 1px solid white; /* Borda dos textos */
+	width: 250px; /* Largura */
+	height: 360px; /* Altura */
+	margin: 90px; /* Espaçamento entre os textos */
+	float: left; /* Coloca os textos um ao lado do outro, ordenando a partir da esquerda*/
+	text-align: center; /* Alinha o texto no centro*/
+
+
+}
+
+/* Formatando o título do texto */
+
+h3{
+
+	/* Fonte adquirida do google fonts*/
+	font-family: 'Orelega One', cursive,bold; 
+	
+
+}
