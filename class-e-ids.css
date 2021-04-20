@@ -1,0 +1,14 @@
+/* Colocando uma classe : .nomedaclasse { propiedade: valor; }. */
+
+/* Colocando uma id: #nomedoid { propidade : valor; }   */	
+
+	.nomedaclasse {
+
+	color: red;
+	
+	}
+
+	#nomedoid {
+
+		background: pink;
+	}
