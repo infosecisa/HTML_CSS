@@ -1,0 +1,76 @@
+.conteudo1{
+
+	
+	background: #105665;
+	width: 200px; /* largura */
+	height: 200px; /* tamanho */
+	position: absolute;
+	z-index: 1; /* define qual elemento aparece primeiro: quanto maior o numero maior a prioridade dele*/
+	
+}
+
+.conteudo2 {
+
+	
+	background: #CDA891;
+	width: 200px; /* largura */
+	height: 200px; /* tamanho */
+	position: absolute;
+	top: 160px; /*em cima */
+	left: 160px; /* esquerda */
+	z-index: 3; /* define qual elemento aparece primeiro: quanto maior o numero maior a prioridade dele*/
+	
+
+}
+
+.conteudo3 {
+
+	
+	background: #9B4622;
+	width: 200px; /* largura */
+	height: 200px; /* tamanho */
+	position: absolute;
+	top: 300px; /*em cima */
+	left: 310px; /* esquerda */
+	z-index: 2; /* define qual elemento aparece primeiro: quanto maior o numero maior a prioridade dele*/
+
+
+}
+
+.texto1{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+.texto2{
+
+	margin-top:40px; 
+	margin-bottom: 40px;
+	margin-left: 50px; 
+	margin-right: 50px;
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+
+.texto3{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Indie Flower', cursive;
+	
+}
+
