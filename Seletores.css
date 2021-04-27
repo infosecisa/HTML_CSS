@@ -1,0 +1,70 @@
+/* Seletor universal, seleciona tudo o que está na página */
+*{
+
+}
+
+/* seletor de título h1 a h6 */
+h1 {
+
+	color: blue;
+
+}
+
+/* seletor de parágrafo */
+p {
+
+	color: gold;
+}
+
+/* seletor de classe */
+
+.principal {
+
+	background: pink;
+
+}
+
+/* seletor de parágrafo(ou outro seletor qualquer) dentro da classe especificada */
+
+.principal p {
+
+	color: silver;
+}
+
+/* seletor de id */
+#secundario {
+
+	background: red;
+
+}
+
+/* seletor de filho */
+
+li > a {
+
+	text-decoration: none;
+	color: green;
+}
+
+/* seletor descendente, pode ter outros elementos entre eles */
+
+p a {
+
+	color: purple;
+	text-decoration: none;
+
+}
+
+/* seletor de irmao adjascente, seleciona o elemento <p> logo abaixo de <h1> */
+
+h1+p {
+
+
+}
+
+/* seletor de irmão geral, seleciona todos os elementos <p> que estão abaixo de <h2> */
+
+h2~p {
+
+
+}
