@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AULA 11</title>
+	
+</head>
+
+<body>
+
+	<header> </header>
+	<main> </main>
+	<footer>  </footer>
+
+
+	<script>
+
+
+		// Criar elemento h1
+		var titulo = document.createElement('h1');
+
+		// Buscar o elemento pai
+		var x = document.querySelector("header")
+
+		// Inserir (anexar) o elemento filho (titulo)
+		x.appendChild(titulo).innerHTML = "Esse é o título do site";
+
+		// Buscar o elemento pai
+		var y = document.querySelector("main")
+
+		// Criar os elementos div
+
+		var div1 = document.createElement('div');
+
+		var div2 = document.createElement('div');
+
+		// Inserir (anexar) os elementos filho (div1 e div2) ao elemento pai (main)
+
+		y.appendChild(div1);
+
+		y.appendChild(div2);
+
+		// Criar elemento h2
+		var outroTitulo = document.createElement('h2');
+		// Criar elemento p
+		var paragrafo = document.createElement('p');
+
+
+		// Inserir (anexar) os elementos filho ao elemento pai (div1)
+		div1.appendChild(outroTitulo).innerHTML = "TITULO H2";
+		div1.appendChild(paragrafo).innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non urna in arcu auctor ornare. Sed maximus nisi quis risus hendrerit facilisis. Nunc ullamcorper vulputate purus, eu placerat nibh semper ut. Praesent sit amet faucibus quam. Mauris in urna venenatis, aliquam tortor nec, accumsan lectus. Aenean dui enim, dapibus quis augue non, vestibulum placerat urna. Suspendisse nec imperdiet neque. Mauris dignissim imperdiet urna, at dapibus tortor porta nec.";
+		
+		// Criar elemento h2
+		var outroTitulo2 = document.createElement('h2');
+		// Criar elemento p
+		var paragrafo2 = document.createElement('p');
+
+		// Inserir (anexar) os elementos filho ao elemento pai (div2)
+		div2.appendChild(outroTitulo2).innerHTML = "TITULO 2 H2";
+		div2.appendChild(paragrafo2).innerHTML = "Praesent blandit rutrum lacinia. Phasellus maximus urna quis elit pulvinar aliquet porttitor quis augue. Pellentesque volutpat et lorem ut rutrum. Ut maximus placerat risus, id interdum metus. Fusce consectetur molestie enim et facilisis. Duis suscipit diam at diam pellentesque, a dignissim nunc condimentum. Vivamus facilisis mollis placerat. Nullam ultricies ante velit, sed varius urna efficitur vel. Pellentesque tellus nisl, accumsan eget est vel, commodo vulputate turpis. Integer sit amet vulputate ligula. Cras nec urna sagittis lorem sodales efficitur. Ut pretium dui sit amet tincidunt porttitor.";
+
+	</script>
+
+
+</body>
+</html>
